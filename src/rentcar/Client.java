@@ -76,10 +76,9 @@ public class Client extends JFrame {
 		setVisible(true);
 
 		j1.addActionListener(new ActionListener() {
-
+			// 등록 버튼
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// 등록 버튼
 				String clientNum = t1.getText();
 				String clientName = t2.getText();
 				String phoneNumber = t3.getText();

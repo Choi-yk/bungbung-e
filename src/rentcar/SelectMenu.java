@@ -39,10 +39,11 @@ public class SelectMenu extends JFrame {
 		});
 		
 		j2.addActionListener(new ActionListener() {
-			
+			// 예약하기 화면으로 이동
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
+				dispose(); 
+				Reservation res = new Reservation();
 				
 			}
 		});
