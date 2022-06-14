@@ -19,9 +19,9 @@ public class SelectMenu extends JFrame {
 		add(j2);
 		add(j3);
 
-		j1.setBounds(90, 40, 300, 60);
-		j2.setBounds(90, 140, 300, 60);
-		j3.setBounds(90, 240, 300, 60);
+		j1.setBounds(90, 90, 300, 60);
+		j2.setBounds(90, 190, 300, 60);
+		j3.setBounds(90, 290, 300, 60);
 
 		add(p);
 		setSize(500, 500);
